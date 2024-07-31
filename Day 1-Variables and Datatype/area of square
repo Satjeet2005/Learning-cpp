@@ -1,1 +1,11 @@
-abc
+#include <iostream>
+using namespace std;
+int main() {
+    int side;
+    cout << "Give side of Square:";
+    cin >> side;
+    int area=side*side;
+    cout << "Area of Square:" << area;
+
+    return 0;
+}
