@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float pen,pencil,eraser,total;
+    cout << "Give price of (Pen,Pencil,Eraser):";
+    cin >> pen >> pencil >> eraser;
+    total=pen+pencil+eraser;
+    total=total+((total*18)/100);
+    cout << "Total Bill:" << total;
+    
+    
+    return 0;
+}
