@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int prin,rate;
+    float time1,total;
+    cout << "Give (Principal,Rate,Time):";
+    cin >> prin >> rate >> time1;
+    total=(prin*rate*time1)/100;
+    cout << "Interest:" << total;
+    return 0;
+}
