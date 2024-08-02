@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int num;
+   cout << "Give a number:";
+   cin >> num;
+   if(num==0){
+       cout << "Given number is Zero";
+   }
+   else if(num<0){
+       cout << "Given number is Negative";
+   }
+   else{
+       cout << "Given number is Positive";
+   }
+
+    return 0;
+}
