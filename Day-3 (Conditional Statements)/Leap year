@@ -1,0 +1,17 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+int year,rem,count=0;
+cout << "Give a Year:";
+cin >> year;
+
+if((year%4==0 && year%100!=0) || year%400==0){
+    cout << "Given Year is a Leap Year";
+}
+else{
+    cout << "Given Year is not a Leap Year";
+}
+
+    return 0;
+}
