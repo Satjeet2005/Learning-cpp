@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int num,arm=0,rem;
+    cout  << "Give a number:";
+    cin >> num;
+    int real_no=num;
+    while(num>0){
+        rem=num%10;
+        arm=arm+(rem*rem*rem);
+        num=num/10;
+    }
+    if(real_no==arm){
+        cout << "Given number is Armstrong Number";
+    }
+    else{
+        cout << "Given number is not a Armstrong Number";
+    }
+    return 0;
+}
