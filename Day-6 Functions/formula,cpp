@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+void form(int a,int b){    
+    int output = a*a + b*b +2*a*b;
+    cout << "Output:" << output;
+}
+int main(){
+int num1,num2;
+cout << "Given two numbers:"; 
+cin >> num1 >> num2;
+form(num1,num2);
+    return 0;
+}
